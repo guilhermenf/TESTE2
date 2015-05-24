@@ -1,0 +1,26 @@
+#include
+
+int main (){
+int num=1;
+while (num != 0){
+printf ("\n Digite um numero entre 1 e 10: ");
+scanf ("%d", &num);
+switch (num)
+{
+case 5:
+printf ("\n\nO numero e igual a 5.\n");
+break;
+case 10:
+printf ("\n\nO numero e igual a 10.\n");
+break;
+case 6:
+printf ("\n\nO numero e igual a 6.\n");
+break;
+default:
+printf ("\n\n\t O numero nao e nem 1, nem 2 e nem 3.");
+printf ("\n\t Tente novamente\n");
+printf ("\t Ou digite uma letra para loop infinito! \n");
+}
+}
+return 0;
+}
